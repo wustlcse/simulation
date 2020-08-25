@@ -1,0 +1,1484 @@
+{
+  "filetype": "dir", 
+  "name": "Amphibia", 
+  "children": [
+    {
+      "filetype": "dir", 
+      "name": "Gymnophiona", 
+      "children": [
+        {
+          "filetype": "dir", 
+          "name": "Uraeotyphlidae", 
+          "children": [
+            {
+              "name": "Uraeotyphlus cf. oxyurus MW-212", 
+              "date_updated": "Feb 1 2010", 
+              "proteins": "13", 
+              "filetype": "organism", 
+              "genes": "13", 
+              "RNAs": "24", 
+              "length": "16432 nt", 
+              "date_created": "Sep 22 2004"
+            }
+          ]
+        }, 
+        {
+          "filetype": "dir", 
+          "name": "Scolecomorphidae", 
+          "children": [
+            {
+              "name": "Scolecomorphus vittatus", 
+              "date_updated": "Feb 1 2010", 
+              "proteins": "13", 
+              "filetype": "organism", 
+              "genes": "13", 
+              "RNAs": "24", 
+              "length": "15973 nt", 
+              "date_created": "Sep 22 2004"
+            }
+          ]
+        }, 
+        {
+          "filetype": "dir", 
+          "name": "Caeciliidae", 
+          "children": [
+            {
+              "filetype": "dir", 
+              "name": "Dermophiinae", 
+              "children": [
+                {
+                  "filetype": "dir", 
+                  "name": "Siphonops", 
+                  "children": [
+                    {
+                      "name": "Siphonops annulatus", 
+                      "date_updated": "Mar 21 2006", 
+                      "proteins": "13", 
+                      "filetype": "organism", 
+                      "genes": "13", 
+                      "RNAs": "24", 
+                      "length": "16202 nt", 
+                      "date_created": "Mar 17 2006"
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Gegeneophis", 
+                  "children": [
+                    {
+                      "name": "Gegeneophis ramaswamii", 
+                      "date_updated": "Feb 1 2010", 
+                      "proteins": "13", 
+                      "filetype": "organism", 
+                      "genes": "13", 
+                      "RNAs": "23", 
+                      "length": "15897 nt", 
+                      "date_created": "Sep 22 2004"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "filetype": "dir", 
+          "name": "Rhinatrematidae", 
+          "children": [
+            {
+              "name": "Rhinatrema bivittatum", 
+              "date_updated": "Feb 27 2009", 
+              "proteins": "13", 
+              "filetype": "organism", 
+              "genes": "13", 
+              "RNAs": "24", 
+              "length": "16422 nt", 
+              "date_created": "Sep 22 2004"
+            }
+          ]
+        }, 
+        {
+          "filetype": "dir", 
+          "name": "Typhlonectidae", 
+          "children": [
+            {
+              "name": "Typhlonectes natans", 
+              "date_updated": "Feb 1 2010", 
+              "proteins": "13", 
+              "filetype": "organism", 
+              "genes": "13", 
+              "RNAs": "24", 
+              "length": "17005 nt", 
+              "date_created": "Jun 22 2000"
+            }
+          ]
+        }, 
+        {
+          "filetype": "dir", 
+          "name": "Ichthyophiidae", 
+          "children": [
+            {
+              "filetype": "dir", 
+              "name": "Ichthyophis", 
+              "children": [
+                {
+                  "name": "Ichthyophis glutinosus", 
+                  "date_updated": "Feb 27 2009", 
+                  "proteins": "13", 
+                  "filetype": "organism", 
+                  "genes": "13", 
+                  "RNAs": "24", 
+                  "length": "15986 nt", 
+                  "date_created": "Sep 22 2004"
+                }, 
+                {
+                  "name": "Ichthyophis bannanicus", 
+                  "date_updated": "Feb 1 2010", 
+                  "proteins": "13", 
+                  "filetype": "organism", 
+                  "genes": "13", 
+                  "RNAs": "24", 
+                  "length": "15983 nt", 
+                  "date_created": "Nov 9 2004"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "filetype": "dir", 
+      "name": "Batrachia", 
+      "children": [
+        {
+          "filetype": "dir", 
+          "name": "Anura", 
+          "children": [
+            {
+              "filetype": "dir", 
+              "name": "Neobatrachia", 
+              "children": [
+                {
+                  "filetype": "dir", 
+                  "name": "Microhyloidea", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Microhylinae", 
+                      "children": [
+                        {
+                          "filetype": "dir", 
+                          "name": "Kaloula", 
+                          "children": [
+                            {
+                              "name": "Kaloula pulchra", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16818 nt", 
+                              "date_created": "Nov 9 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Microhyla", 
+                          "children": [
+                            {
+                              "name": "Microhyla okinavensis", 
+                              "date_updated": "Jan 16 2008", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16717 nt", 
+                              "date_created": "Jan 9 2008"
+                            }, 
+                            {
+                              "name": "Microhyla ornata", 
+                              "date_updated": "Aug 27 2007", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16730 nt", 
+                              "date_created": "May 1 2007"
+                            }, 
+                            {
+                              "name": "Microhyla heymonsi", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16707 nt", 
+                              "date_created": "Nov 9 2004"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Ranoidea", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Mantellidae", 
+                      "children": [
+                        {
+                          "name": "Mantella madagascariensis", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "25", 
+                          "length": "22874 nt", 
+                          "date_created": "Mar 8 2006"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Rhacophoridae", 
+                      "children": [
+                        {
+                          "filetype": "dir", 
+                          "name": "Buergeriinae", 
+                          "children": [
+                            {
+                              "name": "Buergeria buergeri", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "19959 nt", 
+                              "date_created": "May 28 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Rhacophorinae", 
+                          "children": [
+                            {
+                              "filetype": "dir", 
+                              "name": "Rhacophorus", 
+                              "children": [
+                                {
+                                  "name": "Rhacophorus schlegelii", 
+                                  "date_updated": "Feb 1 2010", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "24", 
+                                  "length": "21359 nt", 
+                                  "date_created": "Jul 6 2005"
+                                }
+                              ]
+                            }, 
+                            {
+                              "filetype": "dir", 
+                              "name": "Polypedates", 
+                              "children": [
+                                {
+                                  "name": "Polypedates megacephalus", 
+                                  "date_updated": "Mar 26 2007", 
+                                  "proteins": "11", 
+                                  "filetype": "organism", 
+                                  "genes": "11", 
+                                  "RNAs": "24", 
+                                  "length": "16473 nt", 
+                                  "date_created": "Nov 9 2004"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Ranidae", 
+                      "children": [
+                        {
+                          "filetype": "dir", 
+                          "name": "Dicroglossinae", 
+                          "children": [
+                            {
+                              "filetype": "dir", 
+                              "name": "Euphlyctis", 
+                              "children": [
+                                {
+                                  "name": "Euphlyctis hexadactylus", 
+                                  "date_updated": "Oct 20 2010", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "25", 
+                                  "length": "20280 nt", 
+                                  "date_created": "Oct 15 2010"
+                                }
+                              ]
+                            }, 
+                            {
+                              "filetype": "dir", 
+                              "name": "Limnonectes", 
+                              "children": [
+                                {
+                                  "filetype": "dir", 
+                                  "name": "Limnonectes kuhlii species complex", 
+                                  "children": [
+                                    {
+                                      "name": "Limnonectes bannaensis", 
+                                      "date_updated": "Oct 27 2009", 
+                                      "proteins": "13", 
+                                      "filetype": "organism", 
+                                      "genes": "13", 
+                                      "RNAs": "21", 
+                                      "length": "16867 nt", 
+                                      "date_created": "Jun 19 2009"
+                                    }, 
+                                    {
+                                      "name": "Limnonectes fujianensis", 
+                                      "date_updated": "Feb 1 2010", 
+                                      "proteins": "13", 
+                                      "filetype": "organism", 
+                                      "genes": "13", 
+                                      "RNAs": "24", 
+                                      "length": "17654 nt", 
+                                      "date_created": "Oct 5 2005"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }, 
+                            {
+                              "filetype": "dir", 
+                              "name": "Fejervarya", 
+                              "children": [
+                                {
+                                  "name": "Fejervarya cancrivora", 
+                                  "date_updated": "Jul 29 2009", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "25", 
+                                  "length": "17843 nt", 
+                                  "date_created": "May 1 2009"
+                                }, 
+                                {
+                                  "name": "Fejervarya limnocharis", 
+                                  "date_updated": "Feb 1 2010", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "25", 
+                                  "length": "17717 nt", 
+                                  "date_created": "Aug 5 2003"
+                                }
+                              ]
+                            }, 
+                            {
+                              "filetype": "dir", 
+                              "name": "Quasipaa", 
+                              "children": [
+                                {
+                                  "name": "Quasipaa spinosa", 
+                                  "date_updated": "Mar 26 2010", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "25", 
+                                  "length": "18012 nt", 
+                                  "date_created": "Sep 30 2009"
+                                }
+                              ]
+                            }, 
+                            {
+                              "filetype": "dir", 
+                              "name": "Hoplobatrachus", 
+                              "children": [
+                                {
+                                  "name": "Hoplobatrachus tigerinus", 
+                                  "date_updated": "Oct 20 2010", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "25", 
+                                  "length": "20462 nt", 
+                                  "date_created": "Oct 15 2010"
+                                }
+                              ]
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Raninae", 
+                          "children": [
+                            {
+                              "filetype": "dir", 
+                              "name": "Amolops", 
+                              "children": [
+                                {
+                                  "name": "Amolops tormotus", 
+                                  "date_updated": "May 2 2007", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "24", 
+                                  "length": "17962 nt", 
+                                  "date_created": "May 1 2007"
+                                }
+                              ]
+                            }, 
+                            {
+                              "filetype": "dir", 
+                              "name": "Rana", 
+                              "children": [
+                                {
+                                  "filetype": "dir", 
+                                  "name": "Pelophylax", 
+                                  "children": [
+                                    {
+                                      "name": "Rana plancyi", 
+                                      "date_updated": "Apr 3 2007", 
+                                      "proteins": "13", 
+                                      "filetype": "organism", 
+                                      "genes": "13", 
+                                      "RNAs": "24", 
+                                      "length": "17822 nt", 
+                                      "date_created": "Mar 30 2007"
+                                    }, 
+                                    {
+                                      "name": "Rana nigromaculata", 
+                                      "date_updated": "Dec 14 2007", 
+                                      "proteins": "13", 
+                                      "filetype": "organism", 
+                                      "genes": "13", 
+                                      "RNAs": "24", 
+                                      "length": "17804 nt", 
+                                      "date_created": "Jun 2 2001"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Hyloidea", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Hylidae", 
+                      "children": [
+                        {
+                          "filetype": "dir", 
+                          "name": "Hyla", 
+                          "children": [
+                            {
+                              "name": "Hyla chinensis", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "18180 nt", 
+                              "date_created": "Nov 9 2004"
+                            }, 
+                            {
+                              "name": "Hyla japonica", 
+                              "date_updated": "Jan 16 2008", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "19519 nt", 
+                              "date_created": "Jan 9 2008"
+                            }
+                          ]
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Bufonidae", 
+                      "children": [
+                        {
+                          "filetype": "dir", 
+                          "name": "Bufo", 
+                          "children": [
+                            {
+                              "filetype": "dir", 
+                              "name": "Duttaphrynus", 
+                              "children": [
+                                {
+                                  "name": "Bufo melanostictus", 
+                                  "date_updated": "Jan 8 2008", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "24", 
+                                  "length": "17374 nt", 
+                                  "date_created": "Mar 12 2004"
+                                }
+                              ]
+                            }, 
+                            {
+                              "filetype": "dir", 
+                              "name": "Bufo", 
+                              "children": [
+                                {
+                                  "name": "Bufo gargarizans", 
+                                  "date_updated": "Oct 13 2006", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "24", 
+                                  "length": "17277 nt", 
+                                  "date_created": "Oct 3 2006"
+                                }, 
+                                {
+                                  "name": "Bufo japonicus", 
+                                  "date_updated": "Jan 30 2008", 
+                                  "proteins": "13", 
+                                  "filetype": "organism", 
+                                  "genes": "13", 
+                                  "RNAs": "24", 
+                                  "length": "17757 nt", 
+                                  "date_created": "Oct 5 2007"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "filetype": "dir", 
+              "name": "Mesobatrachia", 
+              "children": [
+                {
+                  "filetype": "dir", 
+                  "name": "Pelobatoidea", 
+                  "children": [
+                    {
+                      "name": "Pelobates cultripes", 
+                      "date_updated": "Jun 15 2006", 
+                      "proteins": "13", 
+                      "filetype": "organism", 
+                      "genes": "13", 
+                      "RNAs": "24", 
+                      "length": "17384 nt", 
+                      "date_created": "Jun 12 2006"
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Pipoidea", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Xenopus", 
+                      "children": [
+                        {
+                          "filetype": "dir", 
+                          "name": "Silurana", 
+                          "children": [
+                            {
+                              "name": "Xenopus (Silurana) tropicalis", 
+                              "date_updated": "May 7 2009", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "17610 nt", 
+                              "date_created": "Feb 4 2005"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Xenopus", 
+                          "children": [
+                            {
+                              "name": "Xenopus laevis", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "17553 nt", 
+                              "date_created": "Aug 24 1999"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "filetype": "dir", 
+              "name": "Archeobatrachia", 
+              "children": [
+                {
+                  "filetype": "dir", 
+                  "name": "Discoglossidae", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Alytes", 
+                      "children": [
+                        {
+                          "name": "Alytes obstetricans pertinax", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "17490 nt", 
+                          "date_created": "Jan 24 2005"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Discoglossus", 
+                      "children": [
+                        {
+                          "name": "Discoglossus galganoi", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "17014 nt", 
+                          "date_created": "Jan 24 2005"
+                        }
+                      ]
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Bombinatoridae", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Bombina", 
+                      "children": [
+                        {
+                          "name": "Bombina maxima", 
+                          "date_updated": "Jul 14 2008", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "18388 nt", 
+                          "date_created": "Jul 14 2008"
+                        }, 
+                        {
+                          "name": "Bombina variegata", 
+                          "date_updated": "Apr 3 2007", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "18551 nt", 
+                          "date_created": "Mar 30 2007"
+                        }, 
+                        {
+                          "name": "Bombina orientalis", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "17847 nt", 
+                          "date_created": "Jan 24 2005"
+                        }, 
+                        {
+                          "name": "Bombina bombina", 
+                          "date_updated": "Nov 26 2008", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "17575 nt", 
+                          "date_created": "Nov 9 2004"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "filetype": "dir", 
+          "name": "Caudata", 
+          "children": [
+            {
+              "filetype": "dir", 
+              "name": "Cryptobranchoidea", 
+              "children": [
+                {
+                  "filetype": "dir", 
+                  "name": "Cryptobranchidae", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Andrias", 
+                      "children": [
+                        {
+                          "name": "Andrias japonicus", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16298 nt", 
+                          "date_created": "Oct 5 2005"
+                        }, 
+                        {
+                          "name": "Andrias davidianus", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16503 nt", 
+                          "date_created": "Jul 7 2003"
+                        }
+                      ]
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Hynobiidae", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Pachyhynobius", 
+                      "children": [
+                        {
+                          "name": "Pachyhynobius shangchengensis", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16394 nt", 
+                          "date_created": "Jun 6 2006"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Salamandrella", 
+                      "children": [
+                        {
+                          "name": "Salamandrella keyserlingii", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16338 nt", 
+                          "date_created": "Jun 6 2006"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Liua", 
+                      "children": [
+                        {
+                          "name": "Liua tsinpaensis", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16380 nt", 
+                          "date_created": "Jun 6 2006"
+                        }, 
+                        {
+                          "name": "Liua shihi", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16376 nt", 
+                          "date_created": "Jun 6 2006"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Batrachuperus", 
+                      "children": [
+                        {
+                          "name": "Batrachuperus gorganensis", 
+                          "date_updated": "Jun 15 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16374 nt", 
+                          "date_created": "Jun 7 2006"
+                        }, 
+                        {
+                          "name": "Batrachuperus mustersi", 
+                          "date_updated": "Jun 16 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16383 nt", 
+                          "date_created": "Jun 14 2006"
+                        }, 
+                        {
+                          "name": "Batrachuperus yenyuanensis", 
+                          "date_updated": "Apr 9 2009", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16394 nt", 
+                          "date_created": "Mar 25 2009"
+                        }, 
+                        {
+                          "name": "Batrachuperus tibetanus", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16379 nt", 
+                          "date_created": "Jun 7 2006"
+                        }, 
+                        {
+                          "name": "Batrachuperus pinchonii", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16390 nt", 
+                          "date_created": "Jun 6 2006"
+                        }, 
+                        {
+                          "name": "Batrachuperus londongensis", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16379 nt", 
+                          "date_created": "Jun 6 2006"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Hynobius", 
+                      "children": [
+                        {
+                          "name": "Hynobius yangi", 
+                          "date_updated": "Feb 24 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16424 nt", 
+                          "date_created": "Feb 16 2010"
+                        }, 
+                        {
+                          "name": "Hynobius guabangshanensis", 
+                          "date_updated": "Feb 24 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16408 nt", 
+                          "date_created": "Jan 27 2010"
+                        }, 
+                        {
+                          "name": "Hynobius arisanensis", 
+                          "date_updated": "May 3 2007", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16401 nt", 
+                          "date_created": "Apr 4 2007"
+                        }, 
+                        {
+                          "name": "Hynobius chinensis", 
+                          "date_updated": "Jun 16 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16408 nt", 
+                          "date_created": "Jun 7 2006"
+                        }, 
+                        {
+                          "name": "Hynobius formosanus", 
+                          "date_updated": "Mar 9 2007", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16394 nt", 
+                          "date_created": "Jun 6 2006"
+                        }, 
+                        {
+                          "name": "Hynobius amjiensis", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16401 nt", 
+                          "date_created": "Jun 6 2006"
+                        }, 
+                        {
+                          "name": "Hynobius quelpaertensis", 
+                          "date_updated": "Jan 4 2008", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16407 nt", 
+                          "date_created": "Jan 3 2008"
+                        }, 
+                        {
+                          "name": "Hynobius leechii", 
+                          "date_updated": "Jun 8 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16428 nt", 
+                          "date_created": "Jun 6 2006"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Onychodactylus", 
+                      "children": [
+                        {
+                          "name": "Onychodactylus fischeri", 
+                          "date_updated": "Jun 16 2006", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16456 nt", 
+                          "date_created": "Jun 7 2006"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Ranodon", 
+                      "children": [
+                        {
+                          "name": "Ranodon sibiricus", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16418 nt", 
+                          "date_created": "Jun 8 2002"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "filetype": "dir", 
+              "name": "Salamandroidea", 
+              "children": [
+                {
+                  "filetype": "dir", 
+                  "name": "Rhyacotritonidae", 
+                  "children": [
+                    {
+                      "name": "Rhyacotriton variegatus", 
+                      "date_updated": "Feb 1 2010", 
+                      "proteins": "13", 
+                      "filetype": "organism", 
+                      "genes": "13", 
+                      "RNAs": "25", 
+                      "length": "21606 nt", 
+                      "date_created": "Oct 1 2004"
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Salamandridae", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Lyciasalamandra", 
+                      "children": [
+                        {
+                          "name": "Lyciasalamandra atifi", 
+                          "date_updated": "Nov 10 2004", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16650 nt", 
+                          "date_created": "Apr 28 2001"
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Paramesotriton", 
+                      "children": [
+                        {
+                          "name": "Paramesotriton hongkongensis", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16285 nt", 
+                          "date_created": "Nov 9 2004"
+                        }
+                      ]
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Plethodontidae", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Hemidactyliinae", 
+                      "children": [
+                        {
+                          "filetype": "dir", 
+                          "name": "Hemidactylium", 
+                          "children": [
+                            {
+                              "name": "Hemidactylium scutatum", 
+                              "date_updated": "Feb 2 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "17421 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Stereochilus", 
+                          "children": [
+                            {
+                              "name": "Stereochilus marginatus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "19631 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Bolitoglossa", 
+                          "children": [
+                            {
+                              "name": "Bolitoglossa n. sp. RLM-2004", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "21657 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Thorius", 
+                          "children": [
+                            {
+                              "name": "Thorius n. sp. RLM-2004", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "19097 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Pseudotriton", 
+                          "children": [
+                            {
+                              "name": "Pseudotriton ruber", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16661 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Gyrinophilus", 
+                          "children": [
+                            {
+                              "name": "Gyrinophilus porphyriticus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16778 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Eurycea", 
+                          "children": [
+                            {
+                              "name": "Eurycea bislineata", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "17184 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Oedipina", 
+                          "children": [
+                            {
+                              "name": "Oedipina poelzi", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16731 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Batrachoseps", 
+                          "children": [
+                            {
+                              "name": "Batrachoseps attenuatus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "17559 nt", 
+                              "date_created": "Oct 1 2004"
+                            }, 
+                            {
+                              "name": "Batrachoseps wrightorum", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "19789 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }
+                      ]
+                    }, 
+                    {
+                      "filetype": "dir", 
+                      "name": "Plethodontinae", 
+                      "children": [
+                        {
+                          "filetype": "dir", 
+                          "name": "Aneides", 
+                          "children": [
+                            {
+                              "name": "Aneides hardii", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "27", 
+                              "length": "22184 nt", 
+                              "date_created": "Oct 1 2004"
+                            }, 
+                            {
+                              "name": "Aneides flavipunctatus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "20197 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Hydromantes", 
+                          "children": [
+                            {
+                              "name": "Hydromantes brunus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "17220 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Ensatina", 
+                          "children": [
+                            {
+                              "name": "Ensatina eschscholtzii", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "22816 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Phaeognathus", 
+                          "children": [
+                            {
+                              "name": "Phaeognathus hubrichti", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16294 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Desmognathus", 
+                          "children": [
+                            {
+                              "name": "Desmognathus wrighti", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16578 nt", 
+                              "date_created": "Oct 1 2004"
+                            }, 
+                            {
+                              "name": "Desmognathus fuscus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "16628 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }, 
+                        {
+                          "filetype": "dir", 
+                          "name": "Plethodon", 
+                          "children": [
+                            {
+                              "name": "Plethodon petraeus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "19235 nt", 
+                              "date_created": "Oct 1 2004"
+                            }, 
+                            {
+                              "name": "Plethodon cinereus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "20001 nt", 
+                              "date_created": "Oct 1 2004"
+                            }, 
+                            {
+                              "name": "Plethodon elongatus", 
+                              "date_updated": "Feb 1 2010", 
+                              "proteins": "13", 
+                              "filetype": "organism", 
+                              "genes": "13", 
+                              "RNAs": "24", 
+                              "length": "18767 nt", 
+                              "date_created": "Oct 1 2004"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }, 
+                {
+                  "filetype": "dir", 
+                  "name": "Ambystomatidae", 
+                  "children": [
+                    {
+                      "filetype": "dir", 
+                      "name": "Ambystoma", 
+                      "children": [
+                        {
+                          "name": "Ambystoma dumerilii", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16370 nt", 
+                          "date_created": "Apr 2 2005"
+                        }, 
+                        {
+                          "name": "Ambystoma andersoni", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16370 nt", 
+                          "date_created": "Apr 2 2005"
+                        }, 
+                        {
+                          "name": "Ambystoma barbouri", 
+                          "date_updated": "Oct 20 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16365 nt", 
+                          "date_created": "Oct 15 2010"
+                        }, 
+                        {
+                          "name": "Ambystoma californiense", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16374 nt", 
+                          "date_created": "Apr 2 2005"
+                        }, 
+                        {
+                          "name": "Ambystoma texanum", 
+                          "date_updated": "Oct 20 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16367 nt", 
+                          "date_created": "Oct 15 2010"
+                        }, 
+                        {
+                          "name": "Ambystoma laterale", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16367 nt", 
+                          "date_created": "Oct 1 2004"
+                        }, 
+                        {
+                          "name": "Ambystoma mexicanum", 
+                          "date_updated": "Feb 1 2010", 
+                          "proteins": "13", 
+                          "filetype": "organism", 
+                          "genes": "13", 
+                          "RNAs": "24", 
+                          "length": "16369 nt", 
+                          "date_created": "Mar 15 2004"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
