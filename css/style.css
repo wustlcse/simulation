@@ -4,12 +4,16 @@
     width: 100%;
     padding-bottom: 100%;
     vertical-align: top;
-    overflow: hidden;
 }
+
+#button1{
+    cursor: pointer;
+}
+
 
 .svg-content {
     /*display: inline-block;*/
-    /*position: absolute;*/
+    /*position: fixed;*/
     /*top: 0;*/
     /*left: 0;*/
     position: absolute;
@@ -35,5 +39,5 @@
 .link {
     fill: none;
     stroke: #ddddcc;
-    stroke-width: 1.5px;
+    /*stroke-width: 1.5px;*/
 }
