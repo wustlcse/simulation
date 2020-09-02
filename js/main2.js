@@ -28,7 +28,6 @@ var svg = d3.select("#table").append("svg")
     .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
     .append("g")
     .attr("transform", "translate(" + (margin.left + width/2) + "," + margin.top + ")")
-    .style("z-index","5")
 ;
 
 d3.json("data/amphibia copy.json", function(error, json_data) {
