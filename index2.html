@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="maximum-scale=1.0" />
+
+    <title>PersonalitySTAR</title>
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
@@ -11,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+
 
 <div class="container-fluid text-width p-5">
     <h1 class="text-center"><b> Survey on Individual Differences in Visualization</b></h1>
@@ -21,26 +26,17 @@
         Developments in data visualization research have enabled visualization systems to achieve great general usability and application across a variety of domains. These advancements have improved not only people's understanding of data, but also the general understanding of people themselves, and how they interact with visualization systems. In particular, researchers have gradually come to recognize the deficiency of having one-size-fits-all visualization interfaces, as well as the significance of individual differences in the use of data visualization systems. Unfortunately, the absence of comprehensive surveys of the existing literature impedes the development of this research. In this paper, we review the research perspectives, as well as the personality traits and cognitive abilities, visualizations, tasks, and measures investigated in the existing literature. We aim to provide a detailed summary of existing scholarship, produce evidence-based reviews, and spur future inquiry.
     </p>
 </div>
-<select id="select1">
-    <option disabled selected value> -- select an option -- </option>
-</select>
-<select id="select2">
-    <option disabled selected value> -- select an option -- </option>
-</select>
-<button id="button1" onclick="start_tasks()">Click Here</button>
+
 
 <div class="container-fluid h-100 d-flex flex-column shadow-lg p-3 mb-5 bg-white rounded" id="table_parent">
 
-    <div class="row flex-fill d-flex" id="table2">
+
+    <div class="row flex-fill d-flex table" id="table">
+
 
     </div>
 
 </div>
-
-<div id="table" class="svg-container">
-
-</div>
-
 <div class="container-fluid text-width p-5">
     <p>
         The 29 key articles we reviewed. The filled boxes indicate the traits ( <span class='icons' id='TRAITS'> </span> ), visualizations ( <span class='icons' id='VIS'> </span> ), tasks ( <span class='icons' id='TASK'> </span> ), and measures (<span class='icons' id='MEASURES'> </span> ) that were in the manuscripts. We use 'X' to indicate traits that were evaluated, but no measurable effect was reported under the studied conditions.
@@ -57,10 +53,11 @@
     </div>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="js/main2.js" type="text/javascript"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script src="js/main2.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>

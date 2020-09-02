@@ -23,11 +23,13 @@ var tree = d3.layout.tree()
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.x, d.y]; });
 
-var svg = d3.select("#container").append("svg")
+var svg = d3.select("#table").append("svg")
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
     .append("g")
-    .attr("transform", "translate(" + (margin.left + width/2) + "," + margin.top + ")");
+    .attr("transform", "translate(" + (margin.left + width/2) + "," + margin.top + ")")
+    .style("z-index","5")
+;
 
 d3.json("data/amphibia copy.json", function(error, json_data) {
     if (error) throw error;

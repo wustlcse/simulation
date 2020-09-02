@@ -41,3 +41,29 @@
     stroke: #ddddcc;
     /*stroke-width: 1.5px;*/
 }
+
+
+
+rect[style^='fill: rgb(141, 211, 199);'] {
+    cursor: pointer;
+}
+
+.ref{
+    cursor: pointer;
+}
+.category{
+    cursor: pointer;
+}
+
+
+#table_parent{
+    overflow: scroll;
+    width: 5000px;
+}
+
+.table {
+    min-height: 50rem;
+    width: 6000px;
+    position: relative;
+    height: 50rem;
+}
