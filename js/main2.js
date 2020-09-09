@@ -5,10 +5,12 @@ var margin = {top: 20, right: 120, bottom: 20, left: 120},
 var i = 0;
 var duration = 1000;
 var root;
-
+var myLoopcounter = 0;
 var duplicate_count_dict = {};
 var link_traverse_count_dict = {};
 var people_data = [];
+var amphibia_data;
+var eutheria_data;
 var thickness = d3.scale.linear()
     .domain([0, 20])
     .range([1,15]);
@@ -28,20 +30,36 @@ var svg = d3.select("#table").append("svg")
     .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
     .append("g")
     .attr("transform", "translate(" + (margin.left + width/2) + "," + margin.top + ")")
+    .attr("id","board")
 ;
 
-d3.json("data/amphibia copy.json", function(error, json_data) {
-    if (error) throw error;
+d3.json("data/eutheria copy.json", function(error_eutheria, eutheria) {
+    d3.json("data/amphibia copy.json", function (error, json_data) {
+        if (error) throw error;
 
-    root = json_data;
+        prepare_graph(json_data);
+        //console.log(json_data);
+        //console.log(eutheria);
+        amphibia_data = json_data;
+        eutheria_data = eutheria;
+        //console.log(amphibia_data);
+        //console.log(eutheria_data);
+        imitation();
+        // document.getElementById("Batrachia").dispatchEvent(new Event('click')); this works, jquery's trigger.click() doesn't.
+    });
+});
+
+function prepare_graph(source)
+{
+    $('#board').empty();
+    root = source;
     root.x0 = width / 2;
     root.y0 = 0;
 
     //console.log(root);
     function collapse(d)
     {
-        if (d.children)
-        {
+        if (d.children) {
             d.children_swap = d.children;
             d.children_swap.forEach(collapse);
             d.children = null;
@@ -50,10 +68,7 @@ d3.json("data/amphibia copy.json", function(error, json_data) {
 
     root.children.forEach(collapse);
     update(root);
-    imitation();
-    // document.getElementById("Batrachia").dispatchEvent(new Event('click')); this works, jquery's trigger.click() doesn't.
-});
-
+}
 function update(source) {
 
     var nodes = tree.nodes(root).reverse(),
@@ -190,46 +205,49 @@ transition in a similar fashion.
  */
 function myLoop(sequence)
 {
-    var counter = 0;
-
     setTimeout(function()
     {
-        //console.log(counter);
-        var current_move = sequence[counter];
+        var current_move = sequence[myLoopcounter];
         var curent_event = current_move.event;
-        var curent_reference_id = current_move.name + current_move.depth.toString();
-        var current_link_reference_id = 'none';
-        if (counter > 0)
+        if(curent_event != "click" && curent_event != "hover")
         {
-            current_link_reference_id = sequence[counter-1].name
-                + sequence[counter-1].depth.toString() + curent_reference_id;
-            if (current_link_reference_id in link_traverse_count_dict)
-            {
-                link_traverse_count_dict[current_link_reference_id] +=1;
-            }
-            else
-            {
-                link_traverse_count_dict[current_link_reference_id] = 0;
-            }
 
-            console.log(link_traverse_count_dict[current_link_reference_id]);
-            console.log(thickness(link_traverse_count_dict[current_link_reference_id]));
-            console.log(current_link_reference_id);
-            $('[id="' + current_link_reference_id + '"]').css({"stroke": "red", 'stroke-width': thickness(link_traverse_count_dict[current_link_reference_id])});
-        }
-        //console.log(current_move);
-        if (curent_event == 'hover'){
-            $('[id="' + curent_reference_id + '"]').children().css('fill', 'red');
         }
         else{
-            $('[id="' + curent_reference_id + '"]').children().css('fill', 'red');
-            document.getElementById(curent_reference_id).dispatchEvent(new Event('click'));
-        }
+            var curent_reference_id = current_move.name + current_move.depth.toString();
+            var current_link_reference_id = 'none';
+            if (myLoopcounter > 0)
+            {
+                current_link_reference_id = sequence[myLoopcounter-1].name
+                    + sequence[myLoopcounter-1].depth.toString() + curent_reference_id;
+                if (current_link_reference_id in link_traverse_count_dict)
+                {
+                    link_traverse_count_dict[current_link_reference_id] +=1;
+                }
+                else
+                {
+                    link_traverse_count_dict[current_link_reference_id] = 0;
+                }
 
-        counter++;
-        if (counter < sequence.length)
+                //console.log(link_traverse_count_dict[current_link_reference_id]);
+                //console.log(thickness(link_traverse_count_dict[current_link_reference_id]));
+                //console.log(current_link_reference_id);
+                $('[id="' + current_link_reference_id + '"]').css({"stroke": "red", 'stroke-width': thickness(link_traverse_count_dict[current_link_reference_id])});
+            }
+            //console.log(current_move);
+            if (curent_event == 'hover'){
+                $('[id="' + curent_reference_id + '"]').children().css('fill', 'red');
+            }
+            else{
+                $('[id="' + curent_reference_id + '"]').children().css('fill', 'red');
+                document.getElementById(curent_reference_id).dispatchEvent(new Event('click'));
+            }
+        }
+        myLoopcounter++;
+        console.log(myLoopcounter);
+        if (myLoopcounter < sequence.length)
         {
-            myLoop(sequence,counter);
+            myLoop(sequence,myLoopcounter);
         }
     }, 3000)
 }
@@ -241,27 +259,36 @@ function imitation(){
         people_data = data.slice();
         for(var i = 0; i < people_data.length; ++i)
         {
-            $("#select1").append( $("<option>")
-                .val(people_data[i]['postId'])
-                .html(people_data[i]['postId'])
-            );
+            let current_person = people_data[i];
+            if(Object.keys(current_person).some(function(k){ return k.includes("task") })){
+                $("#select1").append( $("<option>")
+                    .val(current_person['postId'])
+                    .html(current_person['postId'])
+                );
+            }
         }
 
         $(document).ready(function(){
             $("#select1").change(function(){
                 var sel = document.getElementById('select1');
                 var opt = sel.options[sel.selectedIndex];
-                //console.log( opt.text );
+                var current_person_data = people_data.find(element => element['postId'] == opt.text);
+                console.log(current_person_data);
                 var select2 =
-                    Object.getOwnPropertyNames(people_data.find(element => element['postId'] == opt.text)).filter(a => a.startsWith('task') && isNaN(a.charAt(a.length-1))!=true);
+                    Object.getOwnPropertyNames(current_person_data).filter(a => a.startsWith('task') && isNaN(a.charAt(a.length-1))!=true);
                 console.log(select2);
+
                 $(".option2").remove();
                 for(let i = 0; i < select2.length; ++i)
                 {
-                    $("#select2").append( $("<option class='option2'>")
-                        .val(select2[i])
-                        .html(select2[i])
-                    );
+                    var attached_dataset = JSON.parse(current_person_data[select2[i]])['dataset'];
+                    if(attached_dataset != "lepidosauria")
+                    {
+                        $("#select2").append( $("<option class='option2'>")
+                            .val(select2[i] + "(" + attached_dataset + ")")
+                            .html(select2[i] + "(" + attached_dataset + ")")
+                        );
+                    }
                 }
             })
         });
@@ -290,9 +317,25 @@ function start_tasks() {
     var select2_choice = document.getElementById( "select2" );
     //console.log(typeof select2_choice.options[ select2_choice.selectedIndex ].value);
 
-    var imitation_task = JSON.parse(people_data.find(element => element['postId'] == select1_choice.options[ select1_choice.selectedIndex ].value)[select2_choice.options[ select2_choice.selectedIndex ].value]);
+    var imitation_task = JSON.parse(people_data.find(element => element['postId'] == select1_choice.options[ select1_choice.selectedIndex ].value)[select2_choice.options[ select2_choice.selectedIndex ].value.substring(0,5)]);
+    var current_dataset = imitation_task['dataset'];
+    console.log(current_dataset);
+    console.log(people_data.find(element => element['postId'] == select1_choice.options[ select1_choice.selectedIndex ].value));
     var sequence = imitation_task['interactions'].slice();
-    myLoop(sequence);
+    console.log("current sequence: ");
+    console.log(sequence);
+    if (sequence === undefined || sequence.length == 0) {
+        alert("This task's interaction is empty");
+    }
+    else{
+        if(current_dataset == 'amphibia') {
+            prepare_graph(amphibia_data);
+        }else{
+            prepare_graph(eutheria_data);
+        }
+        myLoopcounter = 0;
+        myLoop(sequence);
+    }
 }
 
 
